@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9D1277F0622A89DBD45C12B2 /* Pods_MyLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EE5C42AF5D8AC619F514BF /* Pods_MyLibrary_Tests.framework */; };
+		AA86662627DB587000382B1A /* grpc-swift-error-log.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA86662527DB587000382B1A /* grpc-swift-error-log.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		884AE0E90641D82FCD5463E2 /* Pods-MyLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		99029246E11D706F466A6EE8 /* MyLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyLibrary.podspec; path = ../MyLibrary.podspec; sourceTree = "<group>"; };
 		9979001F641BF5246B21EBEB /* Pods-MyLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AA86662527DB587000382B1A /* grpc-swift-error-log.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "grpc-swift-error-log.txt"; path = "../grpc-swift-error-log.txt"; sourceTree = "<group>"; };
 		C0383EDA7060E34CB0D02EDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C6E3382D16A6F2DE0C812171 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C6EE5C42AF5D8AC619F514BF /* Pods_MyLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				99029246E11D706F466A6EE8 /* MyLibrary.podspec */,
+				AA86662527DB587000382B1A /* grpc-swift-error-log.txt */,
 				C6E3382D16A6F2DE0C812171 /* README.md */,
 				C0383EDA7060E34CB0D02EDE /* LICENSE */,
 			);
@@ -249,6 +252,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				AA86662627DB587000382B1A /* grpc-swift-error-log.txt in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
