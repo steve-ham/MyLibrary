@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLibrary'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Testing MyLibrary.'
   s.swift_version    = '5.0'
 
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.static_framework = true
-  # s.source_files = 'MyLibrary/Classes/**/*'
+  s.source_files = 'MyLibrary/Classes/**/*'
 
   # s.vendored_frameworks = 'MyLibrary/MyFramework.xcframework'
 
