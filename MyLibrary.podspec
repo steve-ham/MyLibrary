@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLibrary'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Testing MyLibrary.'
   s.swift_version    = '5.0'
 
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   # s.source_files = 'MyLibrary/Classes/**/*'
 
-  s.vendored_frameworks = 'MyFramework.xcframework'
+  s.vendored_frameworks = 'MyLibrary/MyFramework.xcframework'
 
   s.dependency 'LibTorch-Lite'
 
