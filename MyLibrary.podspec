@@ -31,7 +31,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
+  s.static_framework = true
   s.source_files = 'MyLibrary/Classes/**/*'
+
+  s.vendored_frameworks = 'LocationFramework.xcframework'
+
+  s.dependency 'LibTorch-Lite'
   
   # s.resource_bundles = {
   #   'MyLibrary' => ['MyLibrary/Assets/*.png']
@@ -39,5 +44,4 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'gRPC-Swift'
 end
