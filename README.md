@@ -22,7 +22,7 @@ pod 'MyLibrary'
 
 ## Author
 
-steve-ham, steve.ham@kakaomobility.com
+steve-ham, steve_ham@icloud.com
 
 ## License
 
